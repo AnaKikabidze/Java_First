@@ -26,4 +26,16 @@ let message =
 console.log(message);
 
 const greetings = "Привет";
-const name = "Кот";
+const catName = "Кот";
+console.log(`${greetings}, ${catName}`);
+
+const time = 34;
+console.log("Старт поездки. Осталось минут:", time);
+console.log("Немного сторис в соцсетях. Осталось минут:", time - 15);
+console.log("Вы приехали. Добро пожаловать в Москву:", time - 15 - 10 - 9);
+
+const fahrenheit = 451;
+const celsius = (fahrenheit - 32) / 1.8;
+console.log(
+  `${fahrenheit} градуса по Фаренгейту - это, ${celsius}градууса по Цельсию`
+);
